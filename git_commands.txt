@@ -1,0 +1,50 @@
+Linux Commands:
+-> clear ==>  Clear the terminal
+-> ls ==> list all the files and folders
+-> ls -a ==> To list all the files including hidden files (Hidden files mean files or folders starts with .)
+-> pwd ==> Present working directory
+-> cd ==> Change directory
+-> cd .. ==> Go one directory backwards
+-> cd ../.. => Go two directories backwards
+-> mkdir ==> To create a Folder or directory
+-> touch ==> To create a file
+-> rm ==> to remove a file
+-> rm -rf ==> to remove a folder
+-> rmdir ==> to remove a folder
+-> cat <filename>  ==> Just to view the file in read mode
+-> vi <filename>  ==> to view and edit the file
+
+
+Vi Editor:
+
+-> vi <filename>  => To open a file
+-> press i     => To go to insert mode
+-> esc + :wq!        => To save a file after editing
+-> esc + :q!         => To quit the file without saving
+
+
+git Commands
+-> git init  => To initialise a repository in our local laptop (It will create .git folder which is used to store all our git related data)
+-> git status ==> To check status of our files (It will show what are the files need to be add and files need to be committed)
+-> git add <file_names>  => This command will add the files to staging area
+-> git commit -m "message for the commit"  => This command will commit our changes to git 
+										   => This will generate a commit ID
+-> git push -u origin <branch-name>  => In this command we are pushing our changes to GitHub
+   example: git push -u origin main
+   
+=======================
+echo "# HarishMainRepo" >> README.md
+-> git init            ==> To initialise repository
+-> git add <file_name> ==> To add files to staging area
+-> git add .  ==> To add all files at once
+-> git commit -m "first commit" ==> To commit changes to git
+-> git branch -M main    ==> Setting branch to main
+-> git remote add origin https://github.com/saddalamanoj/HarishMainRepo.git  ==> Adding remote URL to our local repository 
+-> git push -u origin main  ==> To push changes to github
+
+Other git commands:
+-> git branch => To see our current branch
+-> git config --global user.name "Saddala Manoj"  ==> To add our username
+-> git config --global user.email "saddala9133manoj@gmail.com" ==> To add our email
+-> git clone <url> ==> to download a remote repository to our local machine
+
